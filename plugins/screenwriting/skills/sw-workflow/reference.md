@@ -126,7 +126,7 @@
 2. `sw-character-conflict` 第八节 人物诊断 14 问
 3. `sw-scene-craft` 第九节 场景诊断 13 问
 4. `sw-dialogue` 第九节 对白诊断 14 问
-5. `sw-format-adaptation` 第六节 格式诊断 11 问
+5. `sw-format-adaptation` 第六节 格式诊断（按体例分四组：A 通用 12 问三种体例都跑，B 好莱坞式 7 问／C 中文场号制 8 问／D 日式 6 问只跑你采用的那一种）
 6. 斯奈德修改九问（在 `sw-story-structure` 第十一节末）
 
 并行审读时，每个 agent 只跑一份清单，输出格式统一为：`清单编号-问题号 | 位置（场次/页） | 问题一句话 | 建议一句话`。
@@ -165,6 +165,41 @@
 
 ## 决策日志
 - 2026-09-06 结尾从"父女和解"改为"父亲吃完糊饭" ← 原结尾太圆，与悲观主控思想矛盾
+```
+
+---
+
+## 六之二、剧集项目的 bible 补充节
+
+剧集项目在上面模板的"项目信息"里写清平台/格式/集数后，把"2 结构"与"3 人物与冲突"两节换成下面四节（其余节照用）：
+
+```markdown
+## S1 引擎
+- 主题对立命题（X vs Y）：
+- franchise 四元素：concept＝　　；conflict＝　　；theme＝　　；story pattern（一句过程句）＝
+- tacit contract（观众每周拿到什么）：
+- 核心问题（"How will X keep doing Y in a world that Z?"）：
+- sample story areas（≥5 条，来源与结局各不相同）：
+- 引擎压力测试：pilot 之后能立刻列出的三集＝
+
+## S2 人物网与季弧
+| 人物 | 专长/不可替代性 | want | 可失之物 | 绑定对象 | 理性轴位置 | 地雷（未言明的恐惧/欲望，预计第几集引爆） |
+|---|---|---|---|---|---|---|
+- season question（本季回答的"今年版本"的问题）：
+- tentpole：起点＝　　；季中＝　　；季末＝
+- 季弧表文件：[文件名]（集 × 人物）
+
+## S3 文档
+- logline / 跳板（3–5 句）：
+- pitch document / series format 文件：[文件名]；bible 档位：[最小 / 滚动 / 完整]
+- 故事线文档：[文件名]（每条线：目的 / 推动者 / 赌注 / 本集入口→出口 / 跨集节拍 / 与主控思想的关系）
+- 国产剧：剧情简介 / 故事梗概 / 人物小传 / 分集大纲 / 分场大纲 各一行状态
+
+## S4 单集结构
+- 平台与幕数：[广播 teaser+4/5/6 幕 | 有线/流媒体隐形幕 | 半小时 cold open+2–3 幕+tag]；目标页数：
+- pilot 类型：[premise / typical-episode / hybrid]；收法：[launch the franchise / final montage / final discovery]
+- 页码锚点与 act out 清单：
+- A/B/C 线入口→出口（本集）：
 ```
 
 ---

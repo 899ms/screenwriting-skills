@@ -4,13 +4,13 @@
     "name": "terry"
   },
   "metadata": {
-    "description": "Skills distilled from 19 screenwriting / dramaturgy books (Chinese, American and Japanese) plus two master-work corpora: Chekhov's complete plays and Ozu Yasujiro's screenplays"
+    "description": "Skills distilled from 32 screenwriting / television / dramaturgy books plus 12 volumes of published scripts and plays (Chekhov, Ozu, Succession, The West Wing, The Sopranos, Downton Abbey, Fleabag and more), covering features, TV series and the stage"
   },
   "plugins": [
     {
       "name": "screenwriting",
       "source": "./plugins/screenwriting",
-      "description": "13 skills: project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, Chekhov dramaturgy, Ozu screenplay style"
+      "description": "20 skills in four layers: general dramaturgy (workflow & story bible, structure, premise & theme, character & conflict, dialogue, scene craft, format & adaptation); the series layer (episode & season structure, series engine & bible, writers' room, half-hour comedy); tradition & trade (American case studies, Japanese, Korean & French, mainland-Chinese series practice, industry & business); and master corpora (Chekhov dramaturgy, Ozu screenplay style, Succession ensemble writing, television case studies)"
     }
   ]
 }

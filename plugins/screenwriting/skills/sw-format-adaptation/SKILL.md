@@ -1,6 +1,6 @@
 ---
 name: sw-format-adaptation
-description: Screenplay format, page craft, the writing process and adaptation (剧本格式/写作流程/改编) — merged from Wendy Henson's Screenwriting Step by Step (spec format rules, action paragraphs, transitions, story-doing, dramatic premise, subplots), Richard Walter (format, page count, cover, master scenes, flashback, montage, feedback symbols, work habits, revision), Neill Hicks (selling script vs shooting script, harem template, draft chain), Syd Field (form, master shot, card method, adaptation as original work), Robert McKee (description in present tense, image systems, adaptation principles, step outline → treatment → screenplay), Julian Hoxter (format elements, outline vs treatment, adaptation four questions), Diamond & Weissman (one-page nine-step, character chart, meld, connective tissue, set pieces, submission draft) and Eric Bork (idea test before writing) — plus an exact typographic grid (margins, indents, column widths), element conventions (V.O./O.S., MORE/CONT'D, dual dialogue, montage, intercut, super), a machine-writable output contract (Fountain, with forced markers for Chinese, and PDF/.fdx render paths), and modern Asian industry formats (Chinese 场号制 影视剧本格式, Japanese 柱・ト書き・セリフ / 決定稿). Use when formatting a spec script, choosing the output file format for a script, deciding what goes in action lines, planning drafts and outlines, cutting pages, adapting a novel/play/true story, writing a Chinese TV/film or Japanese-style script page, or preparing a submission-ready draft.
+description: Screenplay format, page craft, the writing process and adaptation (剧本格式/写作流程/改编) — merged from Wendy Henson (spec format rules, action paragraphs, transitions, dramatic premise, subplots), Richard Walter (page count, cover, master scenes, flashback, montage, feedback symbols, revision), Neill Hicks (selling script vs shooting script, draft chain), Syd Field (master shot, card method, adaptation as original work), Robert McKee (present-tense description, image systems, step outline → treatment → screenplay), Julian Hoxter (format elements, outline vs treatment, adaptation four questions), Diamond & Weissman (one-page nine-step, character chart, set pieces, submission draft) and Eric Bork (idea test) — plus an exact typographic grid (margins, indents, column widths), element conventions (V.O./O.S., MORE/CONT'D, dual dialogue, montage, intercut, super), a machine-writable output contract (Fountain, with forced markers for Chinese, and PDF/.fdx render paths), and modern Asian industry formats (Chinese 场号制 影视剧本格式, Japanese 柱・ト書き・セリフ / 決定稿). Use when formatting a spec script, choosing the output file format, deciding what goes in action lines, planning drafts and outlines, cutting pages, adapting a novel/play/true story, writing a Chinese TV/film or Japanese-style script page, or preparing a submission-ready draft.
 ---
 
 # 格式·流程·改编（Format, Process & Adaptation）
@@ -57,6 +57,18 @@ description: Screenplay format, page craft, the writing process and adaptation (
 
 一页≈一分钟的换算就建立在这张表上；改任何一项都会让页数失真。
 
+### 中文稿的"页"怎么算（这条与媒介无关：是中英版面之别，不是电影与剧集之别）
+
+上面那张表是 US Letter ＋ Courier 12 的西文版面。**中文不是等宽 10 字符／英寸，没有人物名 3.7″ 缩进，整张表的前件都不成立**，所以"一页≈一分钟"不能直接拿来数中文稿。中文剧本没有页数标准，只有字数标准，而甲方、平台和各种写作指南又都在用"页"说话。统一按下面这条链换算，**用时必须声明是折算页**：
+
+1. "N 页"先读成"**N 分钟的戏**"。
+2. 中文每分钟字数：**对白为主取 370–400 字／分钟；动作与反应多的（悬疑、动作、单机位喜剧）取 270–330 字／分钟**。
+3. 折算页 ＝ 非空白字数 ÷ 每分钟字数。
+
+**长片与剧集都用这一条**：100 分钟长片按 330 字／分钟约 3.3 万字；45 分钟剧集约 1.5 万字；28 分钟半小时剧约 9,200 字。**不要去剧集 skill 里借这条链，也不要把某一种体量的字数当成另一种的标准**——每分钟字数随对白密度变，不随媒介变。
+
+出处与更细的分档（国产剧各类型的单集字数实测）见 `sw-chinese-series-practice`；那里给的是剧集的具体数字，换算原理在这里。
+
 ### 元素级约定
 
 - **(V.O.)**：说话者不在场景空间内——旁白、电话另一端、录音、内心独白。**(O.S.)**：在场景空间内但画面外（隔壁房间、门外）。电视稿常用 (O.C.) 等同 O.S.。可少用，但用时必须写对。
@@ -96,7 +108,7 @@ description: Screenplay format, page craft, the writing process and adaptation (
 - **对白**：`人名：台词`，括注放人名后 `沈越（低声）：`；画外音标 `（OS）`/`（画外）`，旁白 `（VO）`/`（旁白）`。
 - **不写转场**；闪回在场景行加 `（回忆）`；字幕写 `字幕：`。
 - 剧集每集 40–45 分钟约 1.2–1.5 万字；分场大纲（每场一行）是场号制的前身，与 `sw-story-structure` 的步骤大纲同物。
-- 场号制**不用 Fountain**，直接纯文本交付；agent 输出前先问用户要好莱坞式还是场号制。
+- 场号制**不用 Fountain**，直接纯文本交付；agent 输出前先问用户要好莱坞式还是场号制；**问不到人时按语言定默认值：全中文对白的项目用场号制，英文项目用好莱坞式／Fountain，并在交付件开头声明体例。不要因为无法提问就停下来**。
 
 ### 日式剧本：柱・ト書き・セリフ
 
@@ -154,23 +166,62 @@ description: Screenplay format, page craft, the writing process and adaptation (
 - **希克斯真人故事**：先征询律师，请主题人物签《人生故事期权合约》；"别以为写妹妹或叔叔就自动拥有授权"；公众人物有权利，非公众人物隐私权极重要。
 - 沃尔特：改编畅销小说常令人失望（电影无法妥善处理幻想；能数出衬衫纽扣却不可能与脑中多变观念一致）；"编造甜蜜的谎言而非真实"。
 - 陆军改造素材学莎翁五法（提高次要人物思想、重新定位反面人物、加强主角智慧删其忍从、补合理性漏洞并顺带写性格、重设结尾让全部人物站到一条线上急速收场）见 `sw-premise-theme`。
+- **改编成剧集**（小说/IP/真实事件/外国剧 → 长剧的扩写方向）与**片段改编**（成片 → 8–20 分钟舞台片段的压缩方向）是两套相反的工艺，见 `sw-chinese-series-practice` 的改编两节（张巍五源类型学与"卖点迁移"、赵彬彬四法则与主场景合并）；剧集改编的引擎判断见 `sw-series-engine-bible`。
 
 ---
 
-## 六、诊断清单
+## 六、诊断清单（按体例分四组）
 
-1. 封面只有片名作者？无场号日期稿次注册号？Courier 12？页数 90–120？
-2. 场景标题三要素且从概括到具体？细节在动作段落？
-3. 动作段落：现在时、主动、无 is/are、具体名词动作动词、无镜头术语、无"我们看到"、无"想/回忆/意识到"、无"没有回答"、每句≤10 词？
-4. 每段动作在银幕上占多少秒？值得观众掏钱吗（$?）？有目的、有价值、最好方式（3 Strikes）？
-5. 人物首次出现大写附年龄，只给性别年龄和一个特色动作？无人物表小传选角建议？
-6. 对白不断页、无括号指示、无下划线惊叹号、无方言音译、无哼哈？
-7. 只写主场景？蒙太奇能否避免或压缩为"追逐＋特征"？闪回是否用了"作弊"标记且最少？
-8. 动笔前有一页简介/主旨陈述/戏剧性前提/角色动作表/步骤大纲吗？聊过十分钟吗？
-9. 处理台本或大纲是否含潜文本而不含对白？跳过了哪一步？
-10. 修改是否先大概念后细节？删了掐头去尾？次要角色各有声音？节奏比页数优先？
-11. 改编：原素材的冲突主要在哪一层面？重新发明了什么？授权/期权签了吗？真实事件的"大问题"与"险象环生的过程"找到了吗？
-12. 输出：交付的是 `.fountain`（好莱坞式）或场号制纯文本，不是 Markdown？中文 Fountain 每个场景标题、人物名、转场都加了强制记号？V.O./O.S. 用对了？跨页对白有 (MORE)/(CONT'D)？用户要的是好莱坞式、场号制还是日式，问过了吗？
+**先定体例，再跑清单。** 旧版这份清单整篇按好莱坞长片写，写中文场号制的人逐条跑会几乎全条不过——那不是稿子有问题，是清单用错了。现在分四组：**A 组三种体例都跑；B／C／D 三组只跑你实际采用的那一种。**
+
+### A. 通用（与体例、与媒介都无关，三种都跑）
+
+1. **动作段落**：现在时、主动语态、无 is/are、具体名词与动作动词、无镜头术语、无"我们看到"、无"想／回忆／意识到"这类拍不出来的内心、无"没有回答"这类否定式、每句尽量 ≤10 词？
+2. **每段动作在银幕上占多少秒？** 值得观众掏钱吗？有目的、有价值、是讲这件事的最好方式吗（3 Strikes）？
+3. **场景标题的逻辑**（不论写成哪种体例）：要素齐、从概括到具体、钟点与日期这类细节放在动作段落而不是标题里？
+4. **对白的手艺**：不写方言音译、不写哼哈与呻吟、不靠标点加重（下划线、惊叹号、省略号第三次）、括注 ≤3 词且只用动词且 99% 的情况下删掉？
+5. **人物介绍**：只给性别、年龄和一个特色动作；不写人物表、人物小传、选角建议？
+6. **只写主场景**？蒙太奇能否避免、或压缩成"一个题目＋若干显著特征"？闪回是否最少、且读者不会看错时空？
+7. **动笔前**有没有一页简介／主旨陈述／戏剧性前提／角色动作表／步骤大纲？跟人聊过十分钟吗？
+8. **处理台本或大纲**是否含潜文本而不含对白？文档链跳过了哪一步、为什么？
+9. **修改**是否先大概念后细节？删了掐头去尾？次要角色各有自己的声音？节奏比页数优先？
+10. **改编**：原素材的冲突主要在哪一层面？重新发明了什么？授权／期权签了吗？真实事件的"为什么重要"与"险象环生的过程"找到了吗？
+11. **篇幅**：用的是哪种折算？中文稿按二之二的折算链（字数 ÷ 每分钟字数 ＝ 折算页）算过并在交付件里声明了吗？
+12. **体例是否全稿统一**？有没有两种体例混用（例如场景行用场号制、动作段用好莱坞式）？
+
+### B. 好莱坞式（spec／Fountain，英文稿）
+
+13. 封面只有片名与作者？无场号、日期、稿次、注册号？**Courier 12**？页数 **90–120**？
+14. 版面对得上二之二那张表（左 1.5″、对白栏 2.5″ 起宽 3.5″、人物名 3.7″、转场右对齐）？
+15. 人物首次出现**全大写**并附年龄？道具与合成音效大写？
+16. 对白**不断页**；跨页有 `(MORE)` / `(CONT'D)`？
+17. **(V.O.) 与 (O.S.) 用对了**（不在场景空间内／在空间内但画面外）？
+18. 全篇**不提摄影机**、不写"切至"（每场结尾自然是切）？
+19. 交付的是 **`.fountain` 纯文本**，不是 Markdown、不是 Word？
+
+### C. 中文场号制（中文电影与剧集行业稿）
+
+20. 场景行写成 `场号 时 内/外 地点`（剧集写 `集-场`）？"日 内"或"内 日"两派**选了一种并全稿统一**？
+21. 动作段统一用 `△`（或统一用 ▲、或统一不加）？
+22. 对白写成 `人名：台词`，括注放在人名后（`沈越（低声）：`）？
+23. 画外音与旁白用 `（OS）`/`（画外）`、`（VO）`/`（旁白）`，全稿一种写法？
+24. **不写转场、不写镜头术语**？闪回在场景行加`（回忆）`？字幕写`字幕：`？
+25. 字数在区间内（剧集每集 40–45 分钟约 1.2–1.5 万字；其他体量按二之二的折算链算）？对白占比与类型相符？
+26. 交付的是**纯文本**（不走 Fountain，不用 Markdown 记号）？
+27. 有没有误用好莱坞的硬规则去判自己（Courier 12、90–120 页、全大写人物名）——**这几条对中文稿不成立**？
+
+### D. 日式（柱・ト書き・セリフ）
+
+28. 柱写成 `○地点・细部（时间）`，场号在 `○` 前？
+29. ト書き段首空**三个全角字**？人物初次登场附年龄（`沈越（３４）`）？
+30. セリフ写成 `人物名「台词」`（名后直接接全角引号，**不用冒号**）？括注写在名后？
+31. 时间经过用 `　　×　　×　　×`？停顿写`（間）`？
+32. 旁白 `（Ｎ）`、独白 `（Ｍ）`、回想 `（回想）` 标在该标的位置？
+33. 稿次写在封面（準備稿 → 改訂稿 → 決定稿）？
+
+### 体例没定怎么办
+
+按二之二的默认值：**全中文对白的项目用场号制，英文项目用好莱坞式／Fountain，日式只在明确要求时用**；并在交付件开头一句声明体例与折算方式。**不要因为没人可问就停下来。**
 
 ---
 

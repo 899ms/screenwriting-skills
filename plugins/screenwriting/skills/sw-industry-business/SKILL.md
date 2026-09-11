@@ -108,6 +108,7 @@ description: The screenwriting business and career (编剧行业与生意经) �
 - 沃尔特：电视付费最慷慨（重播追加酬金"在有生之年源源不断"）；电视对待编剧更好（第二次讨论须付一万）；有线勇气远超主流商业片；但自由作家消失（成长期雇员）；写电视连续剧须住洛杉矶。
 - 博克：一小时电视剧无生死无程序性案件时尤需"富有、性感、迷人"；职业剧三黄金职业。
 - 戴蒙德：原创剧本市场萎缩（1995 卖 173 个，2010 卖 55 个）但仍是新人进入的最佳方式；IP 双重标准（渴求 IP 却从无名编剧找新声音然后雇你写续集）。
+- 本节只是电影编剧视角的概览。真正写剧集时转到剧集 skill：引擎与 bible 见 `sw-series-engine-bible`，单集与季结构见 `sw-series-structure`，编剧室、spec、pitch 单集、职级与 step deal 见 `sw-writers-room`，半小时喜剧见 `sw-sitcom-comedy`，国产剧立项/备案/审查/交付见 `sw-chinese-series-practice`。
 
 ---
 

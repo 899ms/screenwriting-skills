@@ -1,6 +1,6 @@
 ---
 name: sw-workflow
-description: Project orchestrator for the screenwriting skill set (剧本项目主线调度 / 状态存档 / story bible) — a meta-skill that adds no new craft knowledge but routes a screenplay or stage-play project through stages (premise → structure → character → scenes → draft → revision → submission), names which sw-* skill to invoke at each stage, defines each stage's deliverable and advisory exit check, and keeps all project state in a story-bible.md file so work can resume across sessions. Use when starting a new script project, resuming one ("continue my screenplay", "where were we"), when the user asks "what should I do next" on a script, when converting a vague idea into a full development pipeline, or when the other sw-* skills are firing individually and the overall process needs sequencing.
+description: Project orchestrator for the screenwriting skill set (剧本项目主线调度 / 状态存档 / story bible) — a meta-skill that adds no new craft knowledge but routes a screenplay or stage-play project through stages (premise → structure → character → scenes → draft → revision → submission) and a TV / streaming series project (电视剧 / 剧集 / pilot / 一季) through a separate series stage table (engine → character network & season arc → documents/bible → pilot structure → break story & outline → draft → submission), names which sw-* skill to invoke at each stage, defines each stage's deliverable and advisory exit check, and keeps all project state in a story-bible.md file so work can resume across sessions. Use when starting a new script project, resuming one ("continue my screenplay", "where were we"), when the user asks "what should I do next" on a script, when converting a vague idea into a full development pipeline, or when the other sw-* skills are firing individually and the overall process needs sequencing.
 ---
 
 # 剧本项目主线调度（Workflow & Story Bible）
@@ -19,7 +19,8 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)。
 
 1. 在当前目录（或用户指定的剧本目录）找 `story-bible.md`。
 2. **找到**：只读"当前阶段""已定决策""决策日志"三节，用三句话向用户复述：项目是什么、做到哪一步、上次定了什么。然后直接进入当前阶段，不重新讨论已定决策，除非用户主动推翻。
-3. **没找到**：判断入口路径（见第三节），按 reference.md 模板新建 `story-bible.md`，只填"项目信息"和"当前阶段"，其余留空。不要一次问用户四个以上的问题；能从用户的话里推断的先填上，标"（待确认）"。
+3. **一次性交付不建 bible**：用户要的是一份当场交出去的文档（开发方案、提案、一页梗概、分集大纲），且明显不会有下一次会话来接——这时建 bible 是净成本，直接在同一会话里按阶段表跑完即可。bible 解决的是**跨会话丢上下文**，不是"流程要有表"。
+4. **没找到且是持续项目**：判断入口路径（见第三节），按 reference.md 模板新建 `story-bible.md`，只填"项目信息"和"当前阶段"，其余留空。不要一次问用户四个以上的问题；能从用户的话里推断的先填上，标"（待确认）"。
 
 ### 进行中
 
@@ -43,13 +44,14 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)。
 | 3 | 人物与冲突 | `sw-character-conflict` | 主要人物三维表、具体类别、对主题态度、对立统一的绑定物、对手的刀、成长阶梯、原初场景 | 主角最多维；对手总和强于主角；没有两人同型；有"最强的对手是自己"的一面；没有祥云 |
 | 4 | 场景清单 / 处理台本 | `sw-scene-craft` ＋ `sw-format-adaptation` | 步骤大纲（每场一两句＋价值转折＋结构位置）、演示板 40 卡（+/-、><）、道具与形象系统、处理台本（可选） | 每场价值有转折；第三幕不止两张卡；相邻场景有过渡要素；无纯解说场 |
 | 5 | 初稿 | `sw-dialogue` ＋ `sw-format-adaptation`（格式与输出契约）＋ 参照类 skill | 剧本文件（好莱坞式交 `.fountain`，中文场号制或日式交纯文本，见 `sw-format-adaptation` 二之二）、页数、每日进度 | 页数在目标 ±15%；格式硬规则全过；对白遮名可辨 |
-| 6 | 修改 | 各 skill 的"诊断清单" | 修改目标清单、逐项完成记录、稿次 | 结构诊断 13 问、人物诊断 14 问、对白诊断 14 问、场景诊断 13 问、格式诊断 11 问都跑过一遍 |
+| 6 | 修改 | 各 skill 的"诊断清单" | 修改目标清单、逐项完成记录、稿次 | 结构诊断 13 问、人物诊断 14 问、对白诊断 14 问、场景诊断 13 问、格式诊断（A 通用 12 问＋所采用体例那一组）都跑过一遍 |
 | 7 | 提交 / 行业 | `sw-industry-business` | logline 与一页梗概、推销稿、目标买家/比赛、署名与登记 | PROBLEM 七要素自检通过；一句话经过陌生人测试 |
 
 **参照类 skill 何时进入**：
 - `sw-american-case-studies`：阶段 1–2 找同类型片单和陈词滥调；阶段 6 对照同类型高潮。
 - `chekhov-dramaturgy`、`ozu-screenplay-style`：写反高潮、多主人公、家庭题材、"事件画外反应画内"时，从阶段 2 起作为结构与语气的样板。
 - `sw-japanese-screenwriting`、`sw-korean-french-screenwriting`：片段优先、主题后置、类型承诺、集体创作等替代路径；用户明确不走三幕经典设计时在阶段 1 就引入。
+- 剧集类 skill（`sw-series-structure`、`sw-series-engine-bible`、`sw-writers-room`、`sw-sitcom-comedy`、`sw-chinese-series-practice`、`succession-series-writing`、`sw-series-case-studies`）：只在入口路径判为剧集时进入，走三之二的剧集阶段表。
 
 **阶段可以回退**：阶段 5 发现对白写不动，通常是阶段 3 的人物或阶段 1 的前提有洞，回去补，然后在决策日志记一笔。
 
@@ -64,8 +66,28 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)。
 | 改编小说 / 舞台剧 / 真实事件 | 0 → `sw-format-adaptation` 改编四问 → 1 → 2 … | 阶段 1 先答"原素材的冲突主要在哪一层面、要重新发明什么"；真人故事先确认授权 |
 | 短片 / 小戏 / 独幕剧 | 1 → 2（用陆军起承转合与八法代替 BS2）→ 3 → 5 | 演示板缩到 10–15 卡；人物≤5；戏核必须先有 |
 | 只有一个点子，不知道能不能写 | 1（只到一句话故事）→ 7 的 PROBLEM 自检 | 通过再回 2；不通过就换点子，bible 里保留被否的点子和原因 |
-| 电视剧 / 剧集 | 1 → 2（每集结构＋季结构两层）→ 3 → 企画书 | 企画书格式见 `sw-format-adaptation` reference 的大宫艾丽模板 |
+| 电视剧 / 剧集 / pilot / 一季 | 走第三节之二的**剧集阶段表**（S0–S7），不走上面的长片阶段表 | 引擎与 bible 先于剧本；国产剧另加 `sw-chinese-series-practice` 的文档链；企画书格式见 `sw-format-adaptation` reference 的大宫艾丽模板 |
+| 半小时喜剧 / 情景喜剧 | 剧集阶段表，但 S2、S5 换用 `sw-sitcom-comedy` | 页数、格式、笑点密度整体切换 |
 | 行业问题（怎么卖、署名、经纪人） | 直接 7 | 不建 bible |
+
+### 三之二、剧集阶段表（电视剧 / 流媒体剧 / 迷你剧）
+
+剧集与长片的差别不是"更长的电影"：电影是闭合弧、一次性问题；剧集是可重复的**引擎**＋不闭合的关系张力，按出幕（act out）切段，多线并行，bible 先于剧本，集体创作并由 showrunner 统稿。所以顺序倒过来：**先证明引擎能跑一百集，再写第一集。**
+
+| # | 阶段 | 调用的 skill | 交付物（写入 story-bible 的节） | 建议通过标准 |
+|---|---|---|---|---|
+| S0 | 启动 / 续写 | 本 skill | 平台与格式（广播 / 有线 / 流媒体；一小时 / 半小时；集数、季数）、入口路径 | 知道幕数由谁决定（广告位还是自己）、目标页数 |
+| S1 | 引擎与前提 | `sw-series-engine-bible` ＋ `sw-premise-theme` | 主题对立命题、franchise 四元素（concept / conflict / theme / story pattern）、核心问题写成"过程句"、tacit contract 一句话、5–6 条 sample story areas | "pilot 之后想不出三集"即不通过；五条 story area 来源或结局雷同即不通过 |
+| S2 | 人物网与季弧 | `sw-series-engine-bible` ＋ `sw-character-conflict` | 3–4 位主角（各 ≤1 页）与冲突网（谁和谁绑定、专长分工、家庭动力学）、季弧表（集 × 人物 want/状态）、season question 与 tentpole | 主角之间不能"微笑着同意对方"；每人有可失之物；季末回答的是"今年这个版本的问题"而不是总问题 |
+| S3 | 文档 | `sw-series-engine-bible`（+ `sw-chinese-series-practice` 若为国产剧） | logline 与跳板、pitch document / series format、bible（选档）、故事线文档（每条线的目的/推动者/入口出口/跨集节拍）；国产剧另交剧情简介→梗概→人物小传→分集大纲 | 文档能让陌生人复述"每周会发生什么"；国产剧分集大纲每集有收口悬念 |
+| S4 | pilot 与单集结构 | `sw-series-structure`（半小时喜剧换 `sw-sitcom-comedy`） | pilot 类型选择（premise / typical-episode / hybrid）、幕数与页码锚点、act out 清单、A/B/C 线的入口出口、Story Map 17 栏 | 每个 act out 提出新问题；C 线不收幕；隐形幕能说出三重依据 |
+| S5 | 破故事与大纲 | `sw-writers-room` ＋ `sw-scene-craft` | beat sheet（每幕 6–7 场）→ outline（locked）；单集 6 周日程 | outline 每场一个 beat，含幕内位置；改结尾必须回大纲 |
+| S6 | 初稿与改稿 | `sw-dialogue` ＋ `sw-format-adaptation` ＋ `sw-writers-room`（接 note） | 剧本文件（teaser / ACT 标记或 day 标记）、页数、warm read 与 cold read 记录 | 页数在格式区间内（一小时 48–63、半小时单机 ≈30、多机 ≈50）；cold read 能答"下一集是什么" |
+| S7 | 提交 / 行业 | `sw-industry-business`（美国）/ `sw-chinese-series-practice`（国内：立项、备案、审查、交付节点） | pitch 20 分钟稿、leave-behind 一页、目标平台清单 | 一次会议只 pitch 一个；国产剧过内容与技术两道审查的自检 |
+
+**参照类 skill 何时进入**：`succession-series-writing`（流媒体群像、隐形幕、季形对称、结局工程）从 S2 起作样板；`sw-series-case-studies`（West Wing 四幕、Sopranos pilot、Downton 多线、Fleabag 六集季、Calvisi 八个 pilot 节拍表、坂元裕二、卢熙京）在 S1 找同类 comp、S4 对照节拍。**长片 skill 的媒介无关部分照用**：对白、场景价值转折、三维人物、前提——不要因为是剧集就跳过它们。
+
+**回退**：S4 写不出第二集的 act out，通常是 S1 的引擎问题；S6 对白写不动，通常是 S2 的人物网没有可失之物。回去补，记决策日志。
 
 ---
 
@@ -94,6 +116,7 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)。
 - 标准是**建议门槛**，不是硬阻断。用户要跳步就跳，但在 bible 的"当前阶段"旁标"（跳过阶段 3 人物表）"，并在进入阶段 5 前提醒一次。
 - 对 AI 自己：每阶段结束用该 skill 的诊断清单自问，把没过的项写进 bible 而不是默默放过。
 - 通过标准里凡是能量化的都量化（页数、卡片数、人物数、问号数）。
+- **甲方的格式要求优先于任何 skill 的体例。** 用户或委托方给了页数、字数、栏目、模板、集数，就按他们的；skill 里的体例（分集大纲的三件、步骤大纲的行格式、文档的字段表）是**默认值**，只用来填对方没规定的空白。冲突时压缩体例、不要超格式，并把展开版另存一份自己用。**不要为了交齐 skill 要求的字段而交出一份不合甲方规格的文件。**
 
 ---
 
