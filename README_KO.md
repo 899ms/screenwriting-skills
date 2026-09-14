@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [日本語](README_JA.md) · [Français](README_FR.md)
 
-시나리오·드라마 극본·극작법을 위한 24개의 에이전트 스킬([Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) 및 [OpenAI Codex](https://developers.openai.com/codex/build-skills) 지원). 45권의 작법서와 23권의 출간 대본·악보·희곡(중국·미국·영국·일본·한국)에서 추출했습니다.
+시나리오·드라마 극본·극작법을 위한 25개의 에이전트 스킬([Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) 및 [OpenAI Codex](https://developers.openai.com/codex/build-skills) 지원). 46권의 작법서와 23권의 출간 대본·악보·희곡(중국·미국·영국·일본·한국)에서 추출했습니다.
 
 `SKILL.md` 파일은 공개 규격인 [agentskills.io](https://agentskills.io) 표준을 따르며 두 에이전트가 공유합니다. 한 번 설치하면 어디서든 작동합니다.
 
