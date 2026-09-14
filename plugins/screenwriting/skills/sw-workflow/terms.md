@@ -206,3 +206,32 @@
 | new equilibrium | 新的平衡点 | 新平衡 | 特鲁比 |
 | four-corner opposition | 四角对立 | — | 特鲁比＝主角＋三对手各占一角 |
 | scene weave | 场景编排 | 场景清单／分场大纲 | 特鲁比＝单一行动＋结构步骤标签＋叙事线编号 |
+
+## 九、类型术语（Truby genres）
+
+| 英文原词 | 本库中文用法 | 其他常见中译 | 出处 |
+|---|---|---|---|
+| genre beats | 类型节拍 | 类型节奏点 | 特鲁比《The Anatomy of Genres》：每个类型十五到二十个专属情节事件，缺一拍核心观众会察觉 |
+| Mind-Action story view | 心智行动世界观 | — | 特鲁比＝类型底下的人生哲学，主题只能由主类型的世界观承担 |
+| transcend the genre | 超越类型 | 突破类型 | 特鲁比＝扭转节拍、把人生哲学写进主题、探索生活的故事形式；⚠️ 不是删节拍 |
+| story form of life | 生活的故事形式 | — | 特鲁比＝宗教、成功、文明、商业政治、心智等各自的节拍组 |
+| ladder of enlightenment | 启蒙阶梯 | — | 特鲁比＝按主角首要缺陷排序的十二类型；用于定位类型，不是高低贵贱 |
+| genre families | 类型家族 | — | Myth 族（Myth, Action, Western）、Crime 族（Detective, Crime, Thriller, Gangster）、Speculative 族（Horror, SF, Fantasy） |
+| trope | 套路元素 | 桥段、梗 | 特鲁比＝单个人物、装置、台词，"sprinkles on top"，不等于类型 |
+| plot shape: linear / meander / branching / branching-in / spiral / frames / Chinese boxes / rise and fall / vortex street / round | 情节形状：线性／蜿蜒／分枝／向内分枝／螺旋／框架叙事／套盒／兴衰／涡街／环形 | — | 特鲁比；与麦基故事三角（第一节）并列，前者按类型定，后者按设计定 |
+| vortex point | 漩涡点 | 汇聚点 | 特鲁比＝一切收束的时空点；越近越快 |
+| shame culture / guilt culture / consumer culture / fear culture | 耻感文化／罪感文化／消费文化／恐惧文化 | 羞耻文化／内疚文化 | 特鲁比＝社会四阶段（Wilderness / Village / City / Oppressive City）的文化 |
+| nemesis | 宿敌 | 死敌 | 特鲁比＝第二强且最能攻击主角缺陷的对手（Action、Western、Sports） |
+| double | 双身 | 分身 | 特鲁比＝Horror 的 monster 是主角的 double |
+| comic gap / comic drop | 喜剧落差／喜剧跌落 | — | 特鲁比＝high（pretense）与 low（weakness）；跌落为 animal、child、machine |
+| leapfrog | 跳蛙 | — | 特鲁比＝story scene 与 gag 交替 |
+| scam / disguise | 骗局／伪装 | 计谋 | 特鲁比＝Comedy 与 Love 的计划形式 |
+| showdown | 决斗 | 对决 | 特鲁比＝Western 的仪式化对决；⚠️ 与 battle（对决）不同拍 |
+| Eastern | 东部片 | — | 特鲁比＝负向 Rags to Riches，美国衰落期的故事 |
+| talisman | 护符 | 信物、法宝 | 特鲁比＝Myth 的激励事件，力量未知且是主角身份的物质表达 |
+| passageway | 通道 | 门户 | 特鲁比＝Fantasy 世界之间的子世界 |
+| super magical moment | 超级魔法时刻 | — | 特鲁比＝Fantasy 必有 |
+| double clue / red herring / least likely killer | 双义线索／假线索／最不可能的凶手 | 误导线索 | 特鲁比，Detective |
+| gaze / meet-cute / joust / first dance / double reversal | 凝视／可爱相遇／交锋／第一支舞／双重反转 | 一见钟情 | 特鲁比，Love；first dance 与 scam 是 Romantic Comedy 最重要的两拍 |
+| Traveling Angel | 游走天使 | 流浪天使 | 特鲁比＝跨 Comedy、Fantasy、Western、Detective 的子型；七步拆分给天使与被帮助者 |
+

@@ -53,6 +53,7 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 - 戏曲四个 skill（`sw-chinese-opera-banqiang`、`sw-chinese-opera-qupai` 与两个 `-cases`）：项目是戏曲时不走本节的长片阶段表，改走三之三的 X 表或 Q 表；两个方法 skill 开头的媒介边界表决定通用 skill 哪几层能用。
 - `sw-japanese-screenwriting`、`sw-korean-french-screenwriting`：片段优先、主题后置、类型承诺、集体创作等替代路径；用户明确不走三幕经典设计时在阶段 1 就引入。
 - `sw-truby-anatomy`（有机故事解剖）：页码地图与有机骨架并排——阶段 2 的 BS2 板定稿后做有机校验（七大步骤倒查＋22 步骤中段组件）；阶段 3 人物表配四角对立工作单；阶段 4 步骤大纲的结构位置列可标 22 步骤名＋线号；阶段 6 中段松散跑它的诊断十问。契诃夫／小津式反高潮、多主人公项目与剧集项目不适用其中心对决组件。
+- `sw-genre-anatomy`（类型解剖）：阶段 0 定主类型与副类型；阶段 1 主控思想对照该类型的人生哲学；阶段 2 结构定稿后过该类型的节拍表，跑混合类型工作单；阶段 3 人物表对照该类型的主角／对手模板；阶段 6 跑类型诊断 12 问。剧集只取它标明的四处剧集结论，戏曲与反高潮项目不套节拍表。
 - 剧集类 skill（`sw-series-structure`、`sw-series-engine-bible`、`sw-writers-room`、`sw-sitcom-comedy`、`sw-chinese-series-practice`、`succession-series-writing`、`sw-series-case-studies`）：只在入口路径判为剧集时进入，走三之二的剧集阶段表。
 
 **阶段可以回退**：阶段 5 发现对白写不动，通常是阶段 3 的人物或阶段 1 的前提有洞，回去补，然后在决策日志记一笔。

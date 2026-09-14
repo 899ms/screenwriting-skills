@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-脚本執筆・テレビドラマ・劇作法のための 25 個のエージェントスキル（[Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) と [OpenAI Codex](https://developers.openai.com/codex/build-skills) 対応）。46 冊の理論書と 23 巻の出版シナリオ・曲譜・戯曲（中国・アメリカ・イギリス・日本・韓国）から抽出したもの。
+脚本執筆・テレビドラマ・劇作法のための 26 個のエージェントスキル（[Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) と [OpenAI Codex](https://developers.openai.com/codex/build-skills) 対応）。47 冊の理論書と 23 巻の出版シナリオ・曲譜・戯曲（中国・アメリカ・イギリス・日本・韓国）から抽出したもの。
 
 `SKILL.md` はオープン規格 [agentskills.io](https://agentskills.io) に準拠し、両方のエージェントで共有されます。一度入れれば、どちらでも動きます。
 

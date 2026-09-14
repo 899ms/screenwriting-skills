@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [日本語](README_JA.md) · [한국어](README_KO.md)
 
-25 compétences d'agent (« skills ») pour le scénario, l'écriture télévisuelle et la dramaturgie, destinées à [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) et [OpenAI Codex](https://developers.openai.com/codex/build-skills). Distillées de 46 ouvrages de méthode et de 23 volumes de scénarios, partitions et pièces publiés (chinois, américains, britanniques, japonais et coréens).
+26 compétences d'agent (« skills ») pour le scénario, l'écriture télévisuelle et la dramaturgie, destinées à [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) et [OpenAI Codex](https://developers.openai.com/codex/build-skills). Distillées de 47 ouvrages de méthode et de 23 volumes de scénarios, partitions et pièces publiés (chinois, américains, britanniques, japonais et coréens).
 
 Les fichiers `SKILL.md` suivent la norme ouverte [agentskills.io](https://agentskills.io) et sont partagés par les deux agents : une seule installation, et les deux fonctionnent.
 
