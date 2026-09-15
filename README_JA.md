@@ -120,6 +120,6 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 ## ライセンス
 
-個人学習用。引用は原著者および訳者に帰属します。
+スキル本体は MIT ライセンスです（[LICENSE](LICENSE)）。引用部分は MIT の対象外で、原著者・訳者・出版社に帰属します（[NOTICE](NOTICE)）。
 
 同じ発想を日本の作曲・編曲に応用した姉妹プロジェクト：[japanese-composition-skills](https://github.com/jtydhr88/japanese-composition-skills)。

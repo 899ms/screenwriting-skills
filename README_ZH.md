@@ -204,6 +204,6 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 - 来源之间有分歧时并列保留，并注明什么情况用哪个，例如道格拉斯的四幕格子对奥贝格的"幕断只是香肠的尺寸"，主题预设派对主题涌现派。
 - 行业事实一律带来源年份（费率、平台格局、幕数这些变得快）；国产剧政策数据标注 2014/2016。
 - 范例与引文放 `reference.md`，让 `SKILL.md` 保持在约 40 KB 以内。
-- 仅供个人学习使用；引文版权归原作者与译者。
+- 许可：skill 本身用 MIT，见 [LICENSE](LICENSE)。来源书目与剧本中的引文不在 MIT 范围内，版权仍归原作者、译者和出版社，见 [NOTICE](NOTICE)。
 
 同一思路做的另一套 skill（日本作曲编曲）：[japanese-composition-skills](https://github.com/jtydhr88/japanese-composition-skills)。

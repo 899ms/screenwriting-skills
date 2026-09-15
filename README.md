@@ -204,6 +204,6 @@ Film and television are covered. The stage is covered in part, the rest is plann
 - Where the sources disagree, both positions are kept side by side with a note on when to use which, for example Douglas's four-act grid against Oberg's "act breaks are only the size of the sausages", or theme-as-design against theme-as-emergent.
 - Industry facts carry the year of their source, because rates, platforms and act counts date quickly; Chinese policy figures are marked 2014/2016.
 - `reference.md` holds worked examples and quotations so `SKILL.md` stays under ~40 KB.
-- License: for personal study use. Quotations remain the property of their authors and translators.
+- License: MIT for the skills themselves, see [LICENSE](LICENSE). The quotations from the source books and scripts are not covered by it and remain the property of their authors, translators and publishers, see [NOTICE](NOTICE).
 
 Sister project, same idea applied to Japanese composition and arranging: [japanese-composition-skills](https://github.com/jtydhr88/japanese-composition-skills).

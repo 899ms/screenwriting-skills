@@ -120,6 +120,6 @@ Bibliographie complète dans le [README anglais](README.md#source-books).
 
 ## Licence
 
-Usage d'étude personnelle. Les citations demeurent la propriété de leurs auteurs et traducteurs.
+Les skills eux-mêmes sont sous licence MIT (voir [LICENSE](LICENSE)). Les citations n'en relèvent pas et demeurent la propriété de leurs auteurs, traducteurs et éditeurs (voir [NOTICE](NOTICE)).
 
 Projet frère, même idée appliquée à la composition et à l'arrangement japonais : [japanese-composition-skills](https://github.com/jtydhr88/japanese-composition-skills).
